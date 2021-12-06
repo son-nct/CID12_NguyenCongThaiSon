@@ -1,0 +1,58 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.clock {
+    margin: 20px auto 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 350px;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.2);
+}
+
+.clock button {
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #ffffff;
+    font-size:18px;
+    border: 1px solid transparent;
+}
+
+.clock_time {
+    padding: 0 10px;
+}
+
+.clock__btnStart {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.clock__btnStart:hover {
+    background-color: #449d44;
+    border-color: #eea236;
+}
+
+.clock__btnPause {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.clock__btnPause:hover {
+    background-color: #ec971f;
+    border-color: #eea236;
+}
+
+.clock__btnStop {
+    background-color: #DC3545;
+    border-color: #eea236;
+}
+
+.clock__btnStop:hover {
+    background-color: #f7172e;
+    border-color: #eea236;
+}
